@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introducción a CSS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="dropdown">
+        <button class="dropbtn">IDIOMA</button>
+        <div class="dropdown-content">
+          <!-- Agrega aquí las opciones de idioma -->
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">CURSOS</button>
+        <div class="dropdown-content">
+          <!-- Agrega aquí las opciones de cursos -->
+        </div>
+      </div>
+      <div class="search-container">
+        <input type="text" placeholder="Search..." />
+        <button><i class="fa fa-search"></i></button>
+      </div>
+      <div class="auth-buttons">
+        <button class="sign-up">Sign Up</button>
+        <button class="log-in">Log in</button>
+      </div>
+    </nav>
+    <div class="course-menu">
+        <a href="introduccion-html.html"><button>HTML</button></a>
+        <a href="introduccion-css.html"><button>CSS</button></a>
+        <a href="introduccion-javascript.html"><button>JAVASCRIPT</button></a>
+        <a href="introduccion-sql.html"><button>SQL</button></a>
+        <a href="introduccion-python.html"><button>PYTHON</button></a>
+        <a href="introduccion-Java.html"> <button>JAVA</button></a>
+        <a href="introduccion-php.html"> <button>PHP</button></a>
+        <a href="introduccion-c.html"> <button>C</button></a>
+    </div>
+  </header>
+  <main>
+    <h1>Introducción a CSS</h1>
+    <p>Este es el lenguaje que utilizamos para diseñar una página web.</p>
+    <h2>¿Qué es CSS?</h2>
+    <ul>
+      <li>CSS significa "Hojas de estilo en cascada"</li>
+      <li>CSS describe cómo se verán los elementos HTML en la pantalla</li>
+      <li>CSS ahorra mucho trabajo, se puede controlar el diseño de múltiples páginas web</li>
+      <li>Las hojas de estilo se pueden reutilizar en varias páginas, creando estilos homogéneos</li>
+    </ul>
+    <h2>Ejemplo de CSS</h2>
+    <pre><code>body {
+  background-color: lightgray;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}</code></pre>
+    <h2>CSS resolvió un gran problema</h2>
+    <p>HTML nunca fue diseñado para crear páginas web con mucho formato, es decir páginas visualmente atractivas. La complejidad de los sitios web aumentó y los desarrolladores web necesitaban un medio para dar formato a las páginas de manera más precisa. CSS vino a resolver este problema.</p>
+    <p>Con CSS, los desarrolladores web pueden controlar el estilo y el diseño de múltiples páginas web a la vez. Cualquier cambio de estilo se puede hacer en un solo lugar, en el archivo CSS.</p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

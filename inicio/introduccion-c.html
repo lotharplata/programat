@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a C</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .image-container img {
+            max-width: 300px;
+            height: auto;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn">IDIOMA</button>
+                <div class="dropdown-content">
+                    <!-- Agrega aquí las opciones de idioma -->
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">CURSOS</button>
+                <div class="dropdown-content">
+                    <!-- Agrega aquí las opciones de cursos -->
+                </div>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Search..." />
+                <button><i class="fa fa-search"></i></button>
+            </div>
+            <div class="auth-buttons">
+                
+                <button class="sign-up">Sign Up</button>
+                <button class="log-in">Log in</button>
+            </div>
+        </nav>
+        <div class="course-menu">
+            <a href="index.html"><button>inicio</button></a>
+            <a href="introduccion-html.html"><button>HTML</button></a>
+            <a href="introduccion-css.html"><button>CSS</button></a>
+            <a href="introduccion-javascript.html"><button>JAVASCRIPT</button></a>
+            <a href="introduccion-sql.html"><button>SQL</button></a>
+            <a href="introduccion-python.html"><button>PYTHON</button></a>
+            <a href="introduccion-Java.html"> <button>JAVA</button></a>
+            <a href="introduccion-php.html"> <button>PHP</button></a>
+            <a href="introduccion-c.html"> <button>C</button></a>
+        </div>
+    </header>
+    <main>
+        <h1>Introducción a C</h1>
+        
+        <h2>¿Qué es C?</h2>
+        <p>C es un lenguaje de programación de propósito general creado por Dennis Ritchie en los Laboratorios Bell en 1972.</p>
+        <p>Es un idioma muy popular, a pesar de ser antiguo. La principal razón de su popularidad es que es un lenguaje fundamental en el campo de la informática.</p>
+        <p>C está fuertemente asociado con UNIX, ya que fue desarrollado para escribir el sistema operativo UNIX.</p>
+        
+        <h2>¿Por qué aprender C?</h2>
+        <ul>
+            <li>Es uno de los lenguajes de programación más populares del mundo.</li>
+            <li>Si sabes C, no tendrás problemas para aprender otros lenguajes de programación populares como Java, Python, C++, C#, etc, ya que la sintaxis es similar.</li>
+            <li>C es muy rápido, en comparación con otros lenguajes de programación, como Java y Python.</li>
+            <li>C es muy versátil; Se puede utilizar tanto en aplicaciones como en tecnologías.</li>
+        </ul>
+        
+        <h2>Diferencia entre C y C++</h2>
+        <ul>
+            <li>C++ fue desarrollado como una extensión de C y ambos lenguajes tienen casi la misma sintaxis.</li>
+            <li>La principal diferencia entre C y C++ es que C++ admite clases y objetos, mientras que C no.</li>
+        </ul>
+        
+        <h2>Sintaxis</h2>
+        <div class="image-container">
+            <img src="imagenes/foto_de_C.jpg" alt="Ejemplo de código C">
+            <div>
+                <h3>Ejemplo explicado</h3>
+                <p>Línea 1: <code>#include &lt;stdio.h&gt;</code> es una biblioteca de archivos de encabezado que nos permite trabajar con funciones de entrada y salida, como <code>printf()</code> (usada en la línea 4). Los archivos de encabezado agregan funcionalidad a los programas C.</p>
+                <p>No pasa nada si no entiendes cómo <code>#include &lt;stdio.h&gt;</code> funciona. Piense en ello como algo que (casi) siempre aparece en su programa.</p>
+                <p>Línea 2: una línea en blanco. C ignora los espacios en blanco. Pero lo usamos para hacer que el código sea más legible.</p>
+                <p>Línea 3: Otra cosa que siempre aparece en un programa C es <code>main()</code>. Esto se llama función. <code>{}</code> Se ejecutará cualquier código dentro de sus llaves.</p>
+                <p>Línea 4: <code>printf()</code> es una función utilizada para enviar/imprimir texto en la pantalla. En nuestro ejemplo, mostrará "¡Hola mundo!".</p>
+                <p>Tenga en cuenta que: Cada declaración C termina con un punto y coma;</p>
+            </div>
+        </div>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>

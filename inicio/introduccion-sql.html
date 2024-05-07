@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a SQL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn">IDIOMA</button>
+                <div class="dropdown-content">
+                    <!-- Agrega aquí las opciones de idioma -->
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">CURSOS</button>
+                <div class="dropdown-content">
+                    <!-- Agrega aquí las opciones de cursos -->
+                </div>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Search..." />
+                <button><i class="fa fa-search"></i></button>
+            </div>
+            <div class="auth-buttons">
+                <button class="sign-up">Sign Up</button>
+                <button class="log-in">Log in</button>
+            </div>
+        </nav>
+        <div class="course-menu">
+            <div class="course-menu">
+                <a href="introduccion-html.html"><button>HTML</button></a>
+                <a href="introduccion-css.html"><button>CSS</button></a>
+                <a href="introduccion-javascript.html"><button>JAVASCRIPT</button></a>
+                <a href="introduccion-sql.html"><button>SQL</button></a>
+                <a href="introduccion-python.html"><button>PYTHON</button></a>
+                <a href="introduccion-Java.html"> <button>JAVA</button></a>
+                <a href="introduccion-php.html"> <button>PHP</button></a>
+                <a href="introduccion-c.html"> <button>C</button></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1>Introducción a SQL</h1>
+        <p>SQL es un lenguaje estándar para almacenar, manipular y recuperar datos en bases de datos.</p>
+
+        <h2>¿Qué es SQL?</h2>
+        <ul>
+            <li>SQL significa lenguaje de consulta estructurado</li>
+            <li>SQL le permite acceder y manipular bases de datos</li>
+            <li>SQL se convirtió en un estándar del Instituto Nacional Estadounidense de Estándares (ANSI) en 1986 y de la Organización Internacional de Normalización (ISO) en 1987.</li>
+        </ul>
+
+        <h2>¿Qué puede hacer SQL?</h2>
+        <ul>
+            <li>SQL puede ejecutar consultas en una base de datos</li>
+            <li>SQL puede recuperar datos de una base de datos</li>
+            <li>SQL puede insertar registros en una base de datos</li>
+            <li>SQL puede actualizar registros en una base de datos</li>
+            <li>SQL puede eliminar registros de una base de datos</li>
+            <li>SQL puede crear nuevas bases de datos</li>
+            <li>SQL puede crear nuevas tablas en una base de datos</li>
+            <li>SQL puede crear procedimientos almacenados en una base de datos</li>
+            <li>SQL puede crear vistas en una base de datos</li>
+            <li>SQL puede establecer permisos sobre tablas, procedimientos y vistas</li>
+        </ul>
+
+        <h2>SQL es un estándar, PERO....</h2>
+        <p>Aunque SQL es un estándar ANSI/ISO, existen diferentes versiones del lenguaje SQL.</p>
+        <p>Sin embargo, para cumplir con el estándar ANSI, todos admiten al menos los comandos principales (como, <code>SELECT</code>, <code>UPDATE</code>, <code>DELETE</code>, <code>INSERT</code>, <code>WHERE</code>) de manera similar.</p>
+        <p>Nota: ¡La mayoría de los programas de bases de datos SQL también tienen sus propias extensiones patentadas además del estándar SQL!</p>
+
+        <h2>Usando SQL en su sitio web</h2>
+        <p>Para crear un sitio web que muestre datos de una base de datos, necesitará:</p>
+        <ul>
+            <li>Un programa de base de datos RDBMS (es decir, MS Access, SQL Server, MySQL)</li>
+            <li>Para utilizar un lenguaje de programación del lado del servidor, como PHP o ASP</li>
+            <li>Para usar SQL para obtener los datos que desea</li>
+            <li>Usar HTML/CSS para diseñar la página</li>
+        </ul>
+
+        <h2>RDBMS</h2>
+        <p>RDBMS significa Sistema de gestión de bases de datos relacionales.</p>
+        <p>RDBMS es la base de SQL y de todos los sistemas de bases de datos modernos, como MS SQL Server, IBM DB2, Oracle, MySQL y Microsoft Access.</p>
+        <p>Los datos en RDBMS se almacenan en objetos de base de datos llamados tablas. Una tabla es una colección de entradas de datos relacionados y consta de columnas y filas.</p>
+
+        <h2>Ejemplo</h2>
+        <pre>SELECT * FROM Customers;</pre>
+        <p>Cada tabla se divide en entidades más pequeñas llamadas campos. Los campos de la tabla Clientes constan de ID de cliente, Nombre de cliente, Nombre de contacto, Dirección, Ciudad, Código postal y País. Un campo es una columna de una tabla diseñada para mantener información específica sobre cada registro de la tabla.</p>
+        <p>Un registro, también llamado fila, es cada entrada individual que existe en una tabla. Por ejemplo, hay 91 registros en la tabla Clientes anterior. Un registro es una entidad horizontal en una tabla.</p>
+        <p>Una columna es una entidad vertical en una tabla que contiene toda la información asociada con un campo específico en una tabla.</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

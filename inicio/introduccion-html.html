@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Introducción a HTML</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <header>
+   <nav>
+     <div class="dropdown">
+       <button class="dropbtn">IDIOMA</button>
+       <div class="dropdown-content">
+         <!-- Agrega aquí las opciones de idioma -->
+       </div>
+     </div>
+     <div class="dropdown">
+       <button class="dropbtn">CURSOS</button>
+       <div class="dropdown-content">
+         <!-- Agrega aquí las opciones de cursos -->
+       </div>
+     </div>
+     <div class="search-container">
+       <input type="text" placeholder="Search..." />
+       <button><i class="fa fa-search"></i></button>
+     </div>
+     <div class="auth-buttons">
+       <button class="sign-up">Sign Up</button>
+       <button class="log-in">Log in</button>
+     </div>
+   </nav>
+   <div class="course-menu">
+       <a href="introduccion-html.html"><button>HTML</button></a>
+       <a href="introduccion-css.html"><button>CSS</button></a>
+       <a href="introduccion-javascript.html"><button>JAVASCRIPT</button></a>
+       <a href="introduccion-sql.html"><button>SQL</button></a>
+       <a href="introduccion-python.html"><button>PYTHON</button></a>
+       <a href="introduccion-Java.html"> <button>JAVA</button></a>
+       <a href="introduccion-php.html"> <button>PHP</button></a>
+       <a href="introduccion-c.html"> <button>C</button></a>
+     </div>
+ </header>
+ <main>
+   <h1>Introducción a HTML</h1>
+   <p>HTML es el lenguaje de marcado estándar para crear páginas web.</p>
+   <h2>¿Qué es HTML?</h2>
+   <ul>
+     <li>HTML significa lenguaje de marcado de hipertexto</li>
+     <li>HTML es el lenguaje de marcado estándar para crear páginas web.</li>
+     <li>HTML describe la estructura de una página web.</li>
+     <li>HTML consta de una serie de elementos.</li>
+     <li>Los elementos HTML le dicen al navegador cómo mostrar el contenido.</li>
+     <li>Los elementos HTML etiquetan fragmentos de contenido como "este es un encabezado", "este es un párrafo", "este es un enlace", etc.</li>
+   </ul>
+   <h2>Un documento HTML sencillo</h2>
+   <h3>Ejemplo</h3>
+   <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+ &lt;title&gt;Page Title&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+ &lt;h1&gt;My First Heading&lt;/h1&gt;
+ &lt;p&gt;My first paragraph.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+   <h3>Ejemplo explicado</h3>
+   <ul>
+     <li>La <code>&lt;!DOCTYPE html&gt;</code> declaración define que este documento es un documento HTML5</li>
+     <li>El <code>&lt;html&gt;</code> elemento es el elemento raíz de una página HTML.</li>
+     <li>El <code>&lt;head&gt;</code> elemento contiene metainformación sobre la página HTML.</li>
+     <li>El <code>&lt;title&gt;</code> elemento especifica un título para la página HTML (que se muestra en la barra de título del navegador o en la pestaña de la página)</li>
+     <li>El <code>&lt;body&gt;</code> elemento define el cuerpo del documento y es un contenedor de todos los contenidos visibles, como encabezados, párrafos, imágenes, hipervínculos, tablas, listas, etc.</li>
+     <li>El <code>&lt;h1&gt;</code> elemento define un encabezado grande.</li>
+     <li>El <code>&lt;p&gt;</code> elemento define un párrafo.</li>
+   </ul>
+   <h2>¿Qué es un elemento HTML?</h2>
+   <p>Un elemento HTML se define mediante una etiqueta de inicio, algo de contenido y una etiqueta de cierre:</p>
+   <pre><code>&lt;nombre de etiqueta&gt;El contenido va aquí...&lt;/nombre de etiqueta&gt;</code></pre>
+   <p>El elemento HTML es todo, desde la etiqueta inicial hasta la etiqueta final:</p>
+   <pre><code>&lt;h1&gt;Mi primer título&lt;/h1&gt;
+&lt;p&gt;Mi primer párrafo.&lt;/p&gt;</code></pre>
+   <h2>Navegadores web</h2>
+   <p>El objetivo de un navegador web (Chrome, Edge, Firefox, Safari) es leer documentos HTML y mostrarlos correctamente.</p>
+   <p>Un navegador no muestra las etiquetas HTML, pero las utiliza para determinar cómo mostrar el documento:</p>
+   <img src="imagenes/mi_primer_hola_mundo.jpg" alt="Mi primer 'Hola Mundo'">
+   <h2>Estructura de la página HTML</h2>
+   <p>A continuación se muestra una visualización de la estructura de una página HTML:</p>
+   <img src="imagenes/estructura_html.jpg" alt="Estructura de una página HTML">
+ </main>
+ <script src="script.js"></script>
+</body>
+</html>

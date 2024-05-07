@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn">IDIOMA</button>
+                <div class="dropdown-content">
+                    <!-- Agrega aquí las opciones de idioma -->
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">CURSOS</button>
+                <div class="dropdown-content">
+                    <!-- Agrega aquí las opciones de cursos -->
+                </div>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Search..." />
+                <button><i class="fa fa-search"></i></button>
+            </div>
+            <div class="auth-buttons">
+                <button class="sign-up">Sign Up</button>
+                <button class="log-in">Log in</button>
+            </div>
+        </nav>
+        <div class="course-menu">
+            <div class="course-menu">
+                <a href="introduccion-html.html"><button>HTML</button></a>
+                <a href="introduccion-css.html"><button>CSS</button></a>
+                <a href="introduccion-javascript.html"><button>JAVASCRIPT</button></a>
+                <a href="introduccion-sql.html"><button>SQL</button></a>
+                <a href="introduccion-python.html"><button>PYTHON</button></a>
+                <a href="introduccion-Java.html"> <button>JAVA</button></a>
+                <a href="introduccion-php.html"> <button>PHP</button></a>
+                <a href="introduccion-c.html"> <button>C</button></a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <main>
+            <h1>Introducción a JavaScript</h1>
+            <p>JavaScript puede cambiar el contenido HTML.</p>
+            <p>Uno de los muchos métodos HTML de JavaScript es getElementById().</p>
+            <p>El siguiente ejemplo "encuentra" un elemento HTML (con id="demo") y cambia el contenido del elemento (innerHTML) a "Hola JavaScript":</p>
+        
+            <h2>Ejemplo</h2>
+            <pre>document.getElementById("demo").innerHTML = "Hola JavaScript";</pre>
+            <div id="demo"></div>
+        
+            <p>JavaScript acepta comillas simples y dobles:</p>
+        
+            <h2>Ejemplo</h2>
+            <pre>document.getElementById('demo').innerHTML = 'Hola JavaScript';</pre>
+        
+            <p>JavaScript puede cambiar los estilos HTML (CSS)</p>
+            <p>Cambiar el estilo de un elemento HTML es una variante de cambiar un atributo HTML:</p>
+        
+            <h2>Ejemplo</h2>
+            <pre>document.getElementById("demo").style.fontSize = "35px";</pre>
+        
+            <p>JavaScript puede ocultar elementos HTML</p>
+            <p>Se pueden ocultar elementos HTML cambiando el estilo display:</p>
+        
+            <h2>Ejemplo</h2>
+            <pre>document.getElementById("demo").style.display = "none";</pre>
+        
+            <h2>DATO CURIOSO</h2>
+            <p>JavaScript y Java son lenguajes completamente diferentes, tanto en concepto como en diseño.</p>
+            <p>JavaScript fue inventado por Brendan Eich en 1995 y se convirtió en un estándar ECMA en 1997.</p>
+            <p>ECMA-262 es el nombre oficial del estándar. ECMAScript es el nombre oficial del idioma.</p>
+        </main>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
