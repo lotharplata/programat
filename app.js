@@ -2,84 +2,60 @@
 const bd_juego = [
     {
         id:0,
-        pregunta:"¿Cuál es el país más pequeño del mundo?",
-        op0:"Estado Vaticano",
-        op1:"Mónaco",
-        op2:"San Marino",
+        pregunta:"¿Qué propiedad de CSS se utiliza para cambiar el color de texto de un elemento??",
+        op0:"color",
+        op1:"font-color",
+        op2:"text-color",
         correcta:"0"
     },
     {
         id:1,
-        pregunta:"¿Cuántos océanos hay en la Tierra?",
-        op0:"Seis",
-        op1:"Cinco",
-        op2:"Cuatro",
+        pregunta:"¿Cuál de las siguientes unidades de medida CSS es relativa al tamaño del viewport?",
+        op0:"px",
+        op1:"vw",
+        op2:"em",
         correcta:"1"
     },
     {
         id:2,
-        pregunta:"¿Qué país tiene más habitantes?",
-        op0:"China",
-        op1:"Estados Unidos",
-        op2:"Rusia",
+        pregunta:"¿Qué propiedad de CSS se utiliza para aplicar un borde alrededor de un elemento?",
+        op0:"border",
+        op1:"outline",
+        op2:"border-style",
         correcta:"0"
     },
     {
         id:3,
-        pregunta:"¿Qué país es el más grande del mundo?",
-        op0:"Rusia",
-        op1:"Estados Unidos",
-        op2:"India",
+        pregunta:"¿Qué valor se utiliza para la propiedad display de CSS para hacer que un elemento se comporte como un bloque?",
+        op0:"block",
+        op1:"inline",
+        op2:"inline-block",
         correcta:"0"
     },
     {
         id:4,
-        pregunta:"¿Cuál es la montaña más alta del mundo?",
-        op0:"Acongagua",
+        pregunta:"¿Cuál de las siguientes pseudo-clases de CSS se utiliza para aplicar estilos a un enlace visitado?",
+        op0:"hover",
         op1:"Tabor",
-        op2:"Everest",
+        op2:"nice",
         correcta:"2"
     },
     {
         id:5,
-        pregunta:"¿Cuál es el río más largo del mundo?",
-        op0:"Nilo",
-        op1:"Amazonas",
-        op2:"Eufrates",
+        pregunta:"¿Qué propiedad de CSS se utiliza para especificar la distancia entre las líneas de texto?",
+        op0:"line-height",
+        op1:"Lnea-tras",
+        op2:"Ninguna",
         correcta:"0"
     },
     {
         id:6,
-        pregunta:"¿Cuál es la capital de la India?",
-        op0:"Chennai",
-        op1:"Bombay",
-        op2:"Nueva Delhi",
+        pregunta:"el css es fundamental para las paginas web?",
+
+        op1:"Falso",
+        op2:"verdadero",
         correcta:"2"
     },
-    {
-        id:7,
-        pregunta:"¿Qué continente se encuentra en los 4 hemisferios?",
-        op0:"Africa",
-        op1:"Europa",
-        op2:"Ninguno",
-        correcta:"0"
-    },
-    {
-        id:8,
-        pregunta:"¿Cuál es la capital de Egipto?",
-        op0:"Alejandría",
-        op1:"El Cairo",
-        op2:"Menfis",
-        correcta:"1"
-    },
-    {
-        id:9,
-        pregunta:"¿Dónde se encuentra el estrecho de Magallanes?",
-        op0:"Parte sur de america del Norte",
-        op1:"En Europa",
-        op2:"Parte su de Sudamérica",
-        correcta:"2"
-    }
 ]
 
 //para guardar las respuestas elegidas
